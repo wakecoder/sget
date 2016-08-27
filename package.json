@@ -1,6 +1,6 @@
 {
   "name": "safe-get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny (1-line) safe accessor that prevents 'Cannot read property of undefined' errors",
   "main": "index.js",
   "scripts": {
