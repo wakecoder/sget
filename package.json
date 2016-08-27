@@ -1,0 +1,31 @@
+{
+  "name": "sget",
+  "version": "1.0.0",
+  "description": "A tiny (1-line) safe accessor that prevents 'Cannot read property of undefined' errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakecoder/sget.git"
+  },
+  "keywords": [
+    "safe",
+    "accessor",
+    "undefined",
+    "tiny",
+    "reduce",
+    "array",
+    "guard",
+    "cannot",
+    "property",
+    "read"
+  ],
+  "author": "WakeCoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakecoder/sget/issues"
+  },
+  "homepage": "https://github.com/wakecoder/sget#readme"
+}
