@@ -8,17 +8,17 @@
 
 #### How-to-use 
  ```JavaScript 
-    //If you're not using node.js, ignore the following and take the copy-paste approach above
-    const _ = require ('sget');
-    const myObject = {
-    foo: {
-        bar: {
-            baz: ['sget','protects','me']
-            }
+//If you're not using node.js, ignore the following and take the copy-paste approach above
+const _ = require ('sget');
+const myObject = {
+foo: {
+    bar: {
+        baz: ['sget','protects','me']
         }
     }
-  let result = _(myObject,'foo.bar.baz.1'); // result === 'protects'
-  result = _(myObject,'foo.missingProperty.this.could.go.on.forever'); // result = undefined - no Exception hooray!
+}
+let result = _(myObject,'foo.bar.baz.1'); // result === 'protects'
+result = _(myObject,'foo.missingProperty.this.could.go.on.forever'); // result = undefined - no Exception hooray!
 ```
 
 #### More-info
