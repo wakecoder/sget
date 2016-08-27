@@ -1,5 +1,5 @@
 {
-  "name": "sget",
+  "name": "safe-get",
   "version": "1.0.0",
   "description": "A tiny (1-line) safe accessor that prevents 'Cannot read property of undefined' errors",
   "main": "index.js",

@@ -9,7 +9,7 @@
 #### How-to-use 
  ```JavaScript 
 //If you're not using node.js, ignore the following and take the copy-paste approach above
-const _ = require ('sget');
+const _ = require ('safe-get');
 const myObject = {
 foo: {
     bar: {
