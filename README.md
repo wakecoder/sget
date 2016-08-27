@@ -2,7 +2,7 @@
 ####  A tiny (1-line) safe accessor that prevents 'Cannot read property of undefined' errors.
 ***
 #### How-to-get:
-* npm install sget -save
+* npm install safe-get -save
 * copy the following into your code somewhere
   *  **let _ = function (instance, path) { return path.split('.').reduce((p, c) => p ? p[c] : undefined, instance); }**
 
