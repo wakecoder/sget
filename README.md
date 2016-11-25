@@ -1,5 +1,5 @@
 # sget
-####  A tiny (1-line) safe accessor that prevents 'Cannot read property of undefined' errors.
+####  A small safe accessor that prevents 'Cannot read property of undefined' errors.
 ***
 #### How-to-get:
 * npm install safe-get -save
