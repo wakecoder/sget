@@ -1,6 +1,6 @@
 {
   "name": "safe-get",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A small safe accessor that uses reduce to prevent 'Cannot read property of undefined' errors",
   "main": "index.js",
   "scripts": {
