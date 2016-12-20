@@ -33,4 +33,8 @@ Object.prototype._ = function (path) {
 console.log ('sget monkey patching should allow safe accessing directly from all objects.')
 result = testObject._('foo.bar.test.values.2')
 assert (result,'rocks')
+
+console.log ('sget should return undefined when a non-existent array is accessed')
+result = testObject._('foo.bar.test.missing[0]')
+assert (result===undefined)
 console.log ('All tests passed successfully')

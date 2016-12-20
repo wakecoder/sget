@@ -1,7 +1,7 @@
 (function () {
     var sget = function (instance, path) {
         return path.split('.').reduce(function (p, c) {
-            return p ? getValue(p, c) : undefined
+            return typeof p !== 'undefined' ? getValue(p, c) : undefined
         }, instance);
     }
     var findArrayOperator = /([^\[]*)\[([0-9]*)\]/
@@ -11,7 +11,8 @@
         if (matches) { // The path includes accessing an element in an array
             const name = matches[1]
             const arrayIndex = matches[2]
-            return parent[name][arrayIndex]
+            if (typeof parent[name] !== 'undefined') { return parent[name][arrayIndex] }
+            else { return undefined }
         }
         else { return parent[childProperty] }
     }
